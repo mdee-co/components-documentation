@@ -61,7 +61,7 @@
 
       let websiteId = document.getElementById('component-website').value
       let extraInfo = document.getElementById('component-props').value.split('\n').join('&')
-      iframe.src = 'http://{{ site.mdee }}/component/{{ page.script }}?website=' + websiteId +
+      iframe.src = '//{{ site.mdee }}/component/{{ page.script }}?website=' + websiteId +
                     (extraInfo ? ('&' + extraInfo) : '')
       document.getElementById('component-wrapper').html = ''
       document.getElementById('component-wrapper').appendChild(iframe)
