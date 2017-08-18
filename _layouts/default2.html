@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="//static.mdee.co/{{ page.componentsversion }}/styles/main.css">
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    
+  </head>
+
+  <body>
+    <div class="intro-header">
+     <div class="container">
+       <header class="masthead clearfix">
+         <div class="site-info">
+           <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+           <p class="site-description">{{ site.description }}</p>
+         </div>
+       </header>
+     </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="component-info">
+      <h2>Preview</h2>
+      <div>
+        <label for="component-website">Website Id:</label>
+        <input id="component-website" type="text" value="Y5gzWYyY8H" />
+      </div>
+      <div>
+        <label for="component-props">ExtraInfo:</label>
+        <textarea id="component-props"></textarea>
+      </div>
+      <button id="btn-preview">Preview</button>
+      <div>
+        <button id="btn-mobile">Mobile</button>
+        <button id="btn-tablet">Tablet</button>
+        <button id="btn-desktop">Desktop</button>
+      </div>
+    </div>
+
+    <div id="component-wrapper"></div>
+
+    <script>
+    document.getElementById('btn-preview').onclick = () => {
+      let iframe = document.querySelector('#component-wrapper iframe')
+      if (!iframe) iframe = document.createElement('iframe')
+
+      let websiteId = document.getElementById('component-website').value
+      let extraInfo = document.getElementById('component-props').value.split('\n').join('&')
+      iframe.src = 'http://{{ site.mdee }}/component/{{ page.script }}?website=' + websiteId +
+                    (extraInfo ? ('&' + extraInfo) : '')
+      document.getElementById('component-wrapper').html = ''
+      document.getElementById('component-wrapper').appendChild(iframe)
+
+      document.getElementById('component-wrapper').classList.add('with-component')
+    }
+
+    document.getElementById('btn-mobile').onclick = () => {
+      document.getElementById('component-wrapper').classList.add('mobile')
+      document.getElementById('component-wrapper').classList.remove('tablet')
+      document.getElementById('component-wrapper').classList.remove('desktop')
+    }
+    document.getElementById('btn-tablet').onclick = () => {
+      document.getElementById('component-wrapper').classList.add('tablet')
+      document.getElementById('component-wrapper').classList.remove('mobile')
+      document.getElementById('component-wrapper').classList.remove('desktop')
+    }
+    document.getElementById('btn-desktop').onclick = () => {
+      document.getElementById('component-wrapper').classList.add('desktop')
+      document.getElementById('component-wrapper').classList.remove('tablet')
+      document.getElementById('component-wrapper').classList.remove('mobile')
+    }
+    </script>
+
+    {% include analytics.html %}
+  </body>
+</html>
