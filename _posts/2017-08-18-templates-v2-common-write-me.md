@@ -15,7 +15,7 @@ categories:
   - write-me
 
 script: templates.v2.common.write-me
-componentsversion: 5.2.10
+componentsversion: 5.3.0
 ---
 # write-me
 
