@@ -40,33 +40,52 @@
         <label for="component-website">Website Id:</label>
         <input id="component-website" type="text" value="Y5gzWYyY8H" />
       </div>
-      <div>
-        <label for="component-props">ExtraInfo:</label>
-        <textarea id="component-props"></textarea>
-      </div>
       <button id="btn-preview">Preview</button>
       <div>
         <button id="btn-mobile">Mobile</button>
         <button id="btn-tablet">Tablet</button>
         <button id="btn-desktop">Desktop</button>
       </div>
+      <textarea id="txt-component-snippet"></textarea>
     </div>
-
     <div id="component-wrapper"></div>
-
     <script>
+    let getExtraInfo = () => {
+      let returnArray = []
+      let inputs = document.querySelectorAll('.container table tbody tr td:last-child')
+      for (var i = inputs.length - 1; i >= 0; i--) {
+        let input = inputs[i].children[0]
+        returnArray.push(input.name.replace('input-', '') + '=' + input.value)
+      }
+      return returnArray
+    }
+
     document.getElementById('btn-preview').onclick = () => {
       let iframe = document.querySelector('#component-wrapper iframe')
       if (!iframe) iframe = document.createElement('iframe')
 
       let websiteId = document.getElementById('component-website').value
-      let extraInfo = document.getElementById('component-props').value.split('\n').join('&')
+      let extraInfo = getExtraInfo()
       iframe.src = '//{{ site.mdee }}/component/{{ page.script }}?website=' + websiteId +
-                    (extraInfo ? ('&' + extraInfo) : '')
+                    (extraInfo.length ? ('&' + extraInfo.join('&')) : '')
       document.getElementById('component-wrapper').html = ''
       document.getElementById('component-wrapper').appendChild(iframe)
 
       document.getElementById('component-wrapper').classList.add('with-component')
+      let extraInfoSnippet = ''
+      if (extraInfo.length) {
+        let extraInfoAttributes = extraInfo.reduce((accum, elem) => {
+          let extraInfoObject = elem.split('=')
+          return accum + (extraInfoObject[1] ? `"${extraInfoObject[0]}": "${extraInfoObject[1]}",` : '')
+        }, '')
+        extraInfoSnippet = `,
+          "extraInfo": {
+            ${extraInfoAttributes.slice(0, -1)}
+          }`
+      }
+      document.getElementById('txt-component-snippet').innerHTML = `{
+        "name": "{{page.script}}"${extraInfoSnippet}
+      }`
     }
 
     document.getElementById('btn-mobile').onclick = () => {
@@ -74,16 +93,37 @@
       document.getElementById('component-wrapper').classList.remove('tablet')
       document.getElementById('component-wrapper').classList.remove('desktop')
     }
+
     document.getElementById('btn-tablet').onclick = () => {
       document.getElementById('component-wrapper').classList.add('tablet')
       document.getElementById('component-wrapper').classList.remove('mobile')
       document.getElementById('component-wrapper').classList.remove('desktop')
     }
+
     document.getElementById('btn-desktop').onclick = () => {
       document.getElementById('component-wrapper').classList.add('desktop')
       document.getElementById('component-wrapper').classList.remove('tablet')
       document.getElementById('component-wrapper').classList.remove('mobile')
     }
+
+    window.onload = () => {
+      // Create table head
+      let column = document.createElement('th')
+      column.innerHTML = 'Value'
+      document.querySelector('.container table thead tr').appendChild(column)
+
+      // Create inputs
+      let rows = document.querySelectorAll('.container table tbody tr')
+      for (var i = 0; i < rows.length; i++) {
+        let inputColumn = document.createElement('td')
+        let textInput = document.createElement('input')
+        textInput.type = 'text'
+        textInput.name = 'input-' + rows[i].children[0].innerHTML
+        inputColumn.appendChild(textInput)
+        rows[i].appendChild(inputColumn)
+      }
+    }
+
     </script>
 
     {% include analytics.html %}

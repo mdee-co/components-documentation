@@ -11,7 +11,7 @@ layout: default
 <ul>
 {% for post in posts %}
   {% if post.tags contains t %}
-  <li>
+  <li class="post">
     <a href="{{site.baseurl}}{{ post.url }}">{{ post.title }}</a>
   </li>
   {% endif %}
