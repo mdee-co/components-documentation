@@ -11,7 +11,7 @@ categories:
   - bg-basic-hero
 
 script: hero.bg-basic-hero
-componentsversion: 5.3.0
+componentsversion: 5.3.1
 ---
 # bg-basic-hero
 
@@ -26,3 +26,4 @@ componentsversion: 5.3.0
 | bgOpacity | string | Background opacity |
 | text | string | Section paragraph |
 | ctaText | string | CTA text |
+| showCta | bool | Indicates if the CTA should be shown |
