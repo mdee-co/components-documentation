@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.contact-hero
+title: components.templates.v2.template1.clinics
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - contact-hero
+  - clinics
 
-script: templates.v2.template1.contact-hero
-componentsversion: 5.3.3
+script: templates.v2.template1.clinics
+componentsversion: 5.3.4
 ---
-# contact-hero
+# clinics
 
 *Namespace: templates.v2.template1*
 
@@ -25,4 +25,5 @@ componentsversion: 5.3.3
 
 | Name | Type | Description |
 | --- | --- | --- |
-| ctas | array | ctas |
+| gradient | string | Background image gradient |
+| seoHeader | string | SEO related header |
