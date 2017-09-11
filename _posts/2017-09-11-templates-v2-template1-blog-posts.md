@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.services
+title: components.templates.v2.template1.blog-posts
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - services
+  - blog-posts
 
-script: templates.v2.template1.services
-componentsversion: 5.3.6
+script: templates.v2.template1.blog-posts
+componentsversion: 5.3.7
 ---
-# services
+# blog-posts
 
 *Namespace: templates.v2.template1*
 
@@ -25,5 +25,4 @@ componentsversion: 5.3.6
 
 | Name | Type | Description |
 | --- | --- | --- |
-| ctas | array | CTAs |
-| mobileTitle | string | Mobile title |
+| hideMobile | bool | Hide on mobile |
