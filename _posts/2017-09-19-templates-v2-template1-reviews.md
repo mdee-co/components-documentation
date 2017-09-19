@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.contact-hero
+title: components.templates.v2.template1.reviews
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - contact-hero
+  - reviews
 
-script: templates.v2.template1.contact-hero
-componentsversion: 5.3.7
+script: templates.v2.template1.reviews
+componentsversion: 5.3.8
 ---
-# contact-hero
+# reviews
 
 *Namespace: templates.v2.template1*
 
@@ -25,4 +25,6 @@ componentsversion: 5.3.7
 
 | Name | Type | Description |
 | --- | --- | --- |
-| ctas | array | ctas |
+| title | string | Section title |
+| addOwnReview | string | Add own review |
+| linkData | string | Data for the URL |
