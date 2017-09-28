@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.reviews
+title: components.templates.v2.template1.clinics
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - reviews
+  - clinics
 
-script: templates.v2.template1.reviews
-componentsversion: 5.3.9
+script: templates.v2.template1.clinics
+componentsversion: 5.3.10
 ---
-# reviews
+# clinics
 
 *Namespace: templates.v2.template1*
 
@@ -25,6 +25,5 @@ componentsversion: 5.3.9
 
 | Name | Type | Description |
 | --- | --- | --- |
-| title | string | Section title |
-| addOwnReview | string | Add own review |
-| linkData | string | Data for the URL |
+| gradient | string | Background image gradient |
+| seoHeader | string | SEO related header |
