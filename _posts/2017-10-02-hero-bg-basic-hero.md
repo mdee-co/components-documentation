@@ -11,7 +11,7 @@ categories:
   - bg-basic-hero
 
 script: hero.bg-basic-hero
-componentsversion: 5.3.14
+componentsversion: 5.3.15
 ---
 # bg-basic-hero
 
