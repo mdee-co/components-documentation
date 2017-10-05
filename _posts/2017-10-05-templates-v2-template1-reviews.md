@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.services
+title: components.templates.v2.template1.reviews
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - services
+  - reviews
 
-script: templates.v2.template1.services
-componentsversion: 5.3.17
+script: templates.v2.template1.reviews
+componentsversion: 5.3.18
 ---
-# services
+# reviews
 
 *Namespace: templates.v2.template1*
 
@@ -25,5 +25,6 @@ componentsversion: 5.3.17
 
 | Name | Type | Description |
 | --- | --- | --- |
-| ctas | array | CTAs |
-| mobileTitle | string | Mobile title |
+| title | string | Section title |
+| addOwnReview | string | Add own review |
+| linkData | string | Data for the URL |
