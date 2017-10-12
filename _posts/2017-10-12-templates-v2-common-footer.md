@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.common.contact-form
+title: components.templates.v2.common.footer
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - common
-  - contact-form
+  - footer
 
-script: templates.v2.common.contact-form
-componentsversion: 5.3.23
+script: templates.v2.common.footer
+componentsversion: 5.3.24
 ---
-# contact-form
+# footer
 
 *Namespace: templates.v2.common*
 
@@ -25,4 +25,5 @@ componentsversion: 5.3.23
 
 | Name | Type | Description |
 | --- | --- | --- |
-| color | string | Text color |
+| customParagraph |string | HTML with a description paragraph
+| customParagraphTitle | string | Custom paragraph title

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.services
+title: components.templates.v2.template1.contact-hero
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - services
+  - contact-hero
 
-script: templates.v2.template1.services
-componentsversion: 5.3.23
+script: templates.v2.template1.contact-hero
+componentsversion: 5.3.24
 ---
-# services
+# contact-hero
 
 *Namespace: templates.v2.template1*
 
@@ -25,5 +25,4 @@ componentsversion: 5.3.23
 
 | Name | Type | Description |
 | --- | --- | --- |
-| ctas | array | CTAs |
-| mobileTitle | string | Mobile title |
+| ctas | array | ctas |
