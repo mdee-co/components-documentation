@@ -11,7 +11,7 @@ categories:
   - single-image-hero
 
 script: hero.single-image-hero
-componentsversion: 5.3.27
+componentsversion: 5.3.28
 ---
 # single-image-hero
 
