@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.blog-posts
+title: components.templates.v2.template1.insurers
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - blog-posts
+  - insurers
 
-script: templates.v2.template1.blog-posts
-componentsversion: 5.3.28
+script: templates.v2.template1.insurers
+componentsversion: 5.3.29
 ---
-# blog-posts
+# insurers
 
 *Namespace: templates.v2.template1*
 
