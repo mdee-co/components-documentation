@@ -15,7 +15,7 @@ categories:
   - hero
 
 script: templates.v2.template1.hero
-componentsversion: 5.3.29
+componentsversion: 5.3.30
 ---
 # hero
 
@@ -30,3 +30,7 @@ componentsversion: 5.3.29
 | secondParagraph | string | Page subtitle. HTML is allowed |
 | about | string | About paragraph |
 | bgAlt | string | Background alt |
+| pictureWidth | int | Optional. Logo width |
+| pictureHeight | int | Optional. Logo height |
+| picture | string | Optional. Picture name |
+| imageWrapperStyle | object | Optional. Used to overwrite the image wrapper styles. |
