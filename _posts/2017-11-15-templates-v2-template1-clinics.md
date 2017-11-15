@@ -15,7 +15,7 @@ categories:
   - clinics
 
 script: templates.v2.template1.clinics
-componentsversion: 5.3.34
+componentsversion: 5.3.35
 ---
 # clinics
 
