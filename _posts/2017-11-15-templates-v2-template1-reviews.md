@@ -15,7 +15,7 @@ categories:
   - reviews
 
 script: templates.v2.template1.reviews
-componentsversion: 5.3.35
+componentsversion: 5.3.36
 ---
 # reviews
 
