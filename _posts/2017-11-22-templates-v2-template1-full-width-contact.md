@@ -15,7 +15,7 @@ categories:
   - full-width-contact
 
 script: templates.v2.template1.full-width-contact
-componentsversion: 5.3.38
+componentsversion: 5.3.39
 ---
 # full-width-contact
 
