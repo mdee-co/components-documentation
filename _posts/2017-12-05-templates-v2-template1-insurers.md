@@ -15,7 +15,7 @@ categories:
   - insurers
 
 script: templates.v2.template1.insurers
-componentsversion: 5.4.3
+componentsversion: 5.4.4
 ---
 # insurers
 
