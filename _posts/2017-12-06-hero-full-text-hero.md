@@ -11,7 +11,7 @@ categories:
   - full-text-hero
 
 script: hero.full-text-hero
-componentsversion: 5.4.4
+componentsversion: 5.4.5
 ---
 # full-text-hero
 
