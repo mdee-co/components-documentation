@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.reviews
+title: components.templates.v2.template1.blog-posts
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - reviews
+  - blog-posts
 
-script: templates.v2.template1.reviews
-componentsversion: 5.4.6
+script: templates.v2.template1.blog-posts
+componentsversion: 5.4.7
 ---
-# reviews
+# blog-posts
 
 *Namespace: templates.v2.template1*
 
@@ -25,6 +25,4 @@ componentsversion: 5.4.6
 
 | Name | Type | Description |
 | --- | --- | --- |
-| title | string | Section title |
-| addOwnReview | string | Add own review |
-| linkData | string | Data for the URL |
+| hideMobile | bool | Hide on mobile |
