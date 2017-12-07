@@ -11,7 +11,7 @@ categories:
   - youtube
 
 script: video.youtube
-componentsversion: 5.4.8
+componentsversion: 5.4.9
 ---
 # youtube
 

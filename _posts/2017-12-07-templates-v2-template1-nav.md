@@ -15,7 +15,7 @@ categories:
   - nav
 
 script: templates.v2.template1.nav
-componentsversion: 5.4.8
+componentsversion: 5.4.9
 ---
 # nav
 
