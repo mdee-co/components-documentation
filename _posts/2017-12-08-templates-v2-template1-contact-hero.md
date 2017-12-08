@@ -15,7 +15,7 @@ categories:
   - contact-hero
 
 script: templates.v2.template1.contact-hero
-componentsversion: 5.4.10
+componentsversion: 5.4.11
 ---
 # contact-hero
 
