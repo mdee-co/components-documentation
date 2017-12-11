@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.single-testimonial
+title: components.templates.v2.template1.insurers
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - single-testimonial
+  - insurers
 
-script: templates.v2.template1.single-testimonial
-componentsversion: 5.4.11
+script: templates.v2.template1.insurers
+componentsversion: 5.4.12
 ---
-# single-testimonial
+# insurers
 
 *Namespace: templates.v2.template1*
 
@@ -26,4 +26,3 @@ componentsversion: 5.4.11
 | Name | Type | Description |
 | --- | --- | --- |
 | hideMobile | bool | Hide on mobile |
-| testimonialId | int | Testimonial to show. Optional |

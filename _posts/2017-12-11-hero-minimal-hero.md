@@ -11,7 +11,7 @@ categories:
   - minimal-hero
 
 script: hero.minimal-hero
-componentsversion: 5.4.11
+componentsversion: 5.4.12
 ---
 # minimal-hero
 
