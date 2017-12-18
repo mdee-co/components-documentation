@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.blog-posts
+title: components.templates.v2.template1.single-testimonial
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - blog-posts
+  - single-testimonial
 
-script: templates.v2.template1.blog-posts
-componentsversion: 5.4.15
+script: templates.v2.template1.single-testimonial
+componentsversion: 5.4.16
 ---
-# blog-posts
+# single-testimonial
 
 *Namespace: templates.v2.template1*
 
@@ -26,3 +26,4 @@ componentsversion: 5.4.15
 | Name | Type | Description |
 | --- | --- | --- |
 | hideMobile | bool | Hide on mobile |
+| testimonialId | int | Testimonial to show. Optional |
