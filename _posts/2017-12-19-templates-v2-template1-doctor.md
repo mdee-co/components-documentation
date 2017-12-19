@@ -15,7 +15,7 @@ categories:
   - doctor
 
 script: templates.v2.template1.doctor
-componentsversion: 5.4.19
+componentsversion: 5.4.20
 ---
 # doctor
 
