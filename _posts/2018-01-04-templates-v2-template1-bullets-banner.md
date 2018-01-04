@@ -15,7 +15,7 @@ categories:
   - bullets-banner
 
 script: templates.v2.template1.bullets-banner
-componentsversion: 5.4.21
+componentsversion: 5.4.22
 ---
 # bullets-banner
 
