@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.common.write-me
+title: components.templates.v2.common.footer
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - common
-  - write-me
+  - footer
 
-script: templates.v2.common.write-me
-componentsversion: 5.4.24
+script: templates.v2.common.footer
+componentsversion: 5.4.25
 ---
-# write-me
+# footer
 
 *Namespace: templates.v2.common*
 
@@ -25,4 +25,5 @@ componentsversion: 5.4.24
 
 | Name | Type | Description |
 | --- | --- | --- |
-| headline | string | Headline |
+| customParagraph |string | HTML with a description paragraph
+| customParagraphTitle | string | Custom paragraph title
