@@ -15,7 +15,7 @@ categories:
   - footer
 
 script: templates.v2.common.footer
-componentsversion: 5.4.26
+componentsversion: 5.4.27
 ---
 # footer
 

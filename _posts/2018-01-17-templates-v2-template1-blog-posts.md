@@ -15,7 +15,7 @@ categories:
   - blog-posts
 
 script: templates.v2.template1.blog-posts
-componentsversion: 5.4.26
+componentsversion: 5.4.27
 ---
 # blog-posts
 
