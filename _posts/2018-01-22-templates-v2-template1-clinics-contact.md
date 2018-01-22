@@ -15,7 +15,7 @@ categories:
   - clinics-contact
 
 script: templates.v2.template1.clinics-contact
-componentsversion: 5.4.30
+componentsversion: 5.4.31
 ---
 # clinics-contact
 

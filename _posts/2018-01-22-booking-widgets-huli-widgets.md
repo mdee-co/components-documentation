@@ -11,7 +11,7 @@ categories:
   - huli-widgets
 
 script: booking-widgets.huli-widgets
-componentsversion: 5.4.30
+componentsversion: 5.4.31
 ---
 # huli-widgets
 
