@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.clinics
+title: components.templates.v2.template1.insurers
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - clinics
+  - insurers
 
-script: templates.v2.template1.clinics
-componentsversion: 5.4.32
+script: templates.v2.template1.insurers
+componentsversion: 5.4.33
 ---
-# clinics
+# insurers
 
 *Namespace: templates.v2.template1*
 
@@ -25,5 +25,4 @@ componentsversion: 5.4.32
 
 | Name | Type | Description |
 | --- | --- | --- |
-| gradient | string | Background image gradient |
-| seoHeader | string | SEO related header |
+| hideMobile | bool | Hide on mobile |
