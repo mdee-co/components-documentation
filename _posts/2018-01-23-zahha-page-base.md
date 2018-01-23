@@ -11,7 +11,7 @@ categories:
   - page-base
 
 script: zahha.page-base
-componentsversion: 5.4.34
+componentsversion: 5.4.35
 ---
 # page-base
 
