@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.clinics-contact
+title: components.templates.v2.template1.accomplishments
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - clinics-contact
+  - accomplishments
 
-script: templates.v2.template1.clinics-contact
-componentsversion: 5.4.39
+script: templates.v2.template1.accomplishments
+componentsversion: 5.4.40
 ---
-# clinics-contact
+# accomplishments
 
 *Namespace: templates.v2.template1*
 
