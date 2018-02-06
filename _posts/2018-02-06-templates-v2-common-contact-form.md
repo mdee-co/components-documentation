@@ -15,7 +15,7 @@ categories:
   - contact-form
 
 script: templates.v2.common.contact-form
-componentsversion: 5.4.46
+componentsversion: 5.4.48
 ---
 # contact-form
 
