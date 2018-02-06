@@ -15,7 +15,7 @@ categories:
   - hero
 
 script: templates.v2.template1.hero
-componentsversion: 5.4.42
+componentsversion: 5.4.43
 ---
 # hero
 

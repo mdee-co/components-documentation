@@ -15,7 +15,7 @@ categories:
   - single-testimonial
 
 script: templates.v2.template1.single-testimonial
-componentsversion: 5.4.42
+componentsversion: 5.4.43
 ---
 # single-testimonial
 
