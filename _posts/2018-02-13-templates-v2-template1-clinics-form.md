@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.services
+title: components.templates.v2.template1.clinics-form
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - services
+  - clinics-form
 
-script: templates.v2.template1.services
-componentsversion: 5.4.51
+script: templates.v2.template1.clinics-form
+componentsversion: 5.4.52
 ---
-# services
+# clinics
 
 *Namespace: templates.v2.template1*
 
@@ -25,5 +25,5 @@ componentsversion: 5.4.51
 
 | Name | Type | Description |
 | --- | --- | --- |
-| ctas | array | CTAs |
-| mobileTitle | string | Mobile title |
+| gradient | string | Background image gradient |
+| seoHeader | string | SEO related header |
