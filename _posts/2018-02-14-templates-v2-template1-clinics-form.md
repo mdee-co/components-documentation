@@ -15,7 +15,7 @@ categories:
   - clinics-form
 
 script: templates.v2.template1.clinics-form
-componentsversion: 5.4.53
+componentsversion: 5.4.54
 ---
 # clinics
 
