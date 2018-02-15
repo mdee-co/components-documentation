@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.clinics
+title: components.templates.v2.template1.clinics-form
 author: David Ballesteros
 tags:
   - templates
@@ -12,10 +12,10 @@ categories:
   - templates
   - v2
   - template1
-  - clinics
+  - clinics-form
 
-script: templates.v2.template1.clinics
-componentsversion: 5.4.56
+script: templates.v2.template1.clinics-form
+componentsversion: 5.5.1
 ---
 # clinics
 
