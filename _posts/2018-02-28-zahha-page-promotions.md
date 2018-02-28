@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.zahha.page-base
+title: components.zahha.page-promotions
 author: David Ballesteros
 tags:
   - zahha
@@ -8,10 +8,10 @@ tags:
 categories:
   - components
   - zahha
-  - page-base
+  - page-promotions
 
-script: zahha.page-base
-componentsversion: 5.5.7
+script: zahha.page-promotions
+componentsversion: 5.5.8
 ---
 # page-base
 
