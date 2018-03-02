@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.common.write-me
+title: components.templates.v2.common.contact-form
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - common
-  - write-me
+  - contact-form
 
-script: templates.v2.common.write-me
-componentsversion: 5.5.8
+script: templates.v2.common.contact-form
+componentsversion: 5.5.10
 ---
-# write-me
+# contact-form
 
 *Namespace: templates.v2.common*
 
@@ -25,4 +25,4 @@ componentsversion: 5.5.8
 
 | Name | Type | Description |
 | --- | --- | --- |
-| headline | string | Headline |
+| color | string | Text color |
