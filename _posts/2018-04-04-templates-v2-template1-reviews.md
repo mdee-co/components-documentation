@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.insurers
+title: components.templates.v2.template1.reviews
 author: David Ballesteros
 tags:
   - templates
@@ -12,12 +12,12 @@ categories:
   - templates
   - v2
   - template1
-  - insurers
+  - reviews
 
-script: templates.v2.template1.insurers
-componentsversion: 5.5.10
+script: templates.v2.template1.reviews
+componentsversion: 5.5.11
 ---
-# insurers
+# reviews
 
 *Namespace: templates.v2.template1*
 
@@ -25,4 +25,6 @@ componentsversion: 5.5.10
 
 | Name | Type | Description |
 | --- | --- | --- |
-| hideMobile | bool | Hide on mobile |
+| title | string | Section title |
+| addOwnReview | string | Add own review |
+| linkData | string | Data for the URL |
