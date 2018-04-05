@@ -11,7 +11,7 @@ categories:
   - main-services-4
 
 script: legacy.main-services-4
-componentsversion: 5.5.11
+componentsversion: 5.5.12
 ---
 # main-services-4
 
