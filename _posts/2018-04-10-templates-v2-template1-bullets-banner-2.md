@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.templates.v2.template1.bullets-banner
+title: components.templates.v2.template1.bullets-banner-2
 author: David Ballesteros
 tags:
   - templates
@@ -12,10 +12,10 @@ categories:
   - templates
   - v2
   - template1
-  - bullets-banner
+  - bullets-banner-2
 
-script: templates.v2.template1.bullets-banner
-componentsversion: 5.5.12
+script: templates.v2.template1.bullets-banner-2
+componentsversion: 5.5.13
 ---
 # bullets-banner
 
