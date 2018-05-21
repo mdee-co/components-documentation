@@ -11,7 +11,7 @@ categories:
   - grouped-services-1
 
 script: services.grouped-services-1
-componentsversion: 5.5.20
+componentsversion: 5.5.21
 ---
 # grouped-services-1
 

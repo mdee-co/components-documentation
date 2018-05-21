@@ -11,7 +11,7 @@ categories:
   - promotions-carousel
 
 script: zahha.promotions-carousel
-componentsversion: 5.5.20
+componentsversion: 5.5.21
 ---
 # promotions-carousel
 
