@@ -15,7 +15,7 @@ categories:
   - accomplishments
 
 script: templates.v2.template1.accomplishments
-componentsversion: 5.5.22
+componentsversion: 5.5.23
 ---
 # accomplishments
 
