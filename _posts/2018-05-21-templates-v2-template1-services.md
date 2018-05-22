@@ -15,7 +15,7 @@ categories:
   - services
 
 script: templates.v2.template1.services
-componentsversion: 5.5.23
+componentsversion: 5.5.24
 ---
 # services
 
