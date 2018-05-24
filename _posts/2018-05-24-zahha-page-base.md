@@ -1,17 +1,17 @@
 ---
 layout: post
-title: components.custom.page-base
+title: components.zahha.page-base
 author: David Ballesteros
 tags:
-  - custom
+  - zahha
 
 categories:
   - components
-  - custom
+  - zahha
   - page-base
 
-script: custom.page-base
-componentsversion: 5.5.29
+script: zahha.page-base
+componentsversion: 5.5.30
 ---
 # page-base
 

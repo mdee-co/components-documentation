@@ -1,6 +1,6 @@
 ---
 layout: post
-title: components.zahha.page-base
+title: components.zahha.promotions-carousel
 author: David Ballesteros
 tags:
   - zahha
@@ -8,12 +8,12 @@ tags:
 categories:
   - components
   - zahha
-  - page-base
+  - promotions-carousel
 
-script: zahha.page-base
-componentsversion: 5.5.29
+script: zahha.promotions-carousel
+componentsversion: 5.5.30
 ---
-# page-base
+# promotions-carousel
 
 *Namespace: zahha*
 
