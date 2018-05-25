@@ -11,7 +11,7 @@ categories:
   - page-base
 
 script: custom.page-base
-componentsversion: 5.5.33
+componentsversion: 5.5.34
 ---
 # page-base
 
