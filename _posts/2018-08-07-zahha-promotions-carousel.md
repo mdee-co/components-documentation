@@ -1,19 +1,19 @@
 ---
 layout: post
-title: components.custom.page-base
+title: components.zahha.promotions-carousel
 author: David Ballesteros
 tags:
-  - custom
+  - zahha
 
 categories:
   - components
-  - custom
-  - page-base
+  - zahha
+  - promotions-carousel
 
-script: custom.page-base
-componentsversion: 5.5.35
+script: zahha.promotions-carousel
+componentsversion: 5.5.36
 ---
-# page-base
+# promotions-carousel
 
 *Namespace: zahha*
 
